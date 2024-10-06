@@ -1,8 +1,10 @@
 # Hi, I'm Ruby!
 
-## Data Scientist | Avid Programmer | Inspiring Leader
+## Data Scientist | Programmer | Inspiring Leader
 
-I am a **recent graduate from Colby College** passionate about leveraging my knowledge in **data analytics** and **programming** to extract meaningful insights and solve real-world problems. I have completed various coding projects, from creating visual art with the Turtle graphics library to implementing machine learning algorithms in Python for email data analysis. I aim to blend creativity with technical proficiency in my current projects, focusing on combining machine learning algorithms in business analytics to deliver valuable, easily digestible insights.
+I am a **recent graduate from Colby College** with a passion for leveraging my expertise in **data analytics** and **programming** to extract meaningful insights and solve real-world problems. I have worked on various coding projects, including creating visual art with **Python** using the Turtle graphics library, implementing **machine learning** algorithms in **Python** for email classification and face identification, and analyzing large datasets using **SQL, Python, SPSS, Google Sheets**. Additionally, I have experience creating **interactive dashboards** with **Tableau** to visualize data, track key metrics, and support decision-making processes.
+
+Currently, I am focused on blending creativity with technical proficiency by applying **data-driven approaches** to deliver valuable, easily digestible insights and solutions that drive impactful decisions.
 
 ---
 
@@ -25,7 +27,7 @@ _Check out all my projects [here](https://github.com/RubytheDev)._
 - **Languages**: Python, SQL, MATLAB, JavaScript, Java
 - **Tools**: Tableau, Excel, Power BI, Git, Jupyter Notebooks, SPSS
 - **Frameworks/Libraries**: Pandas, NumPy, Matplotlib, Scikit-learn
-- **Concepts**: Data Visualization, Statistical Analysis, Machine Learning
+- **Concepts**: Data Visualization, Statistical Analysis, Machine Learning, Data Structures and Algorithms, Software Development
 
 ---
 
