@@ -1,46 +1,38 @@
-# Hi, I'm Ruby!
+# Ruby Nunez | Personal Website [https://rubythedev.github.io/](https://rubythedev.github.io/)
 
-## Data Scientist | Programmer | Inspiring Leader
+![HTML](https://img.icons8.com/color/48/000000/html-5.png) 
+![CSS](https://img.icons8.com/color/48/000000/css3.png) 
+![JavaScript](https://img.icons8.com/color/48/000000/javascript.png) 
 
-I am a **recent graduate from Colby College** with a passion for leveraging my expertise in **data analytics** and **programming** to extract meaningful insights and solve real-world problems. I have worked on various coding projects, including creating visual art with **Python** using the Turtle graphics library, implementing **machine learning** algorithms in **Python** for email classification and face identification, and analyzing large datasets using **SQL, Python, SPSS, Google Sheets**. Additionally, I have experience creating **interactive dashboards** with **Tableau** to visualize data, track key metrics, and support decision-making processes.
+## Overview
 
-Currently, I am focused on blending creativity with technical proficiency by applying **data-driven approaches** to deliver valuable, easily digestible insights and solutions that drive impactful decisions.
+Welcome to my data analyst portfolio! This repository contains the code for my personal website, showcasing my skills, projects, and experiences in data analysis and web development. The website is built using **HTML**, **CSS**, and **JavaScript**, demonstrating my ability to create interactive and visually appealing web applications.
 
----
+## Website Features
 
-### 💼 What I Do:
-- **Data Analysis**: Skilled in **SQL, Python, Tableau,** and **Google Sheets** for data-drvien decision-making.
-- **Leadership**: Experienced in leading communities, mentoring, and inspiring collaboration.
-- **Creative & Analytical Coding**: I enjoy automating processes, building data visualizations, and experimenting with new coding challenges. I am eager to enhance my programming skills and explore innovative ways to drive meaningful change.
+- **Responsive Design**: The website is fully responsive, ensuring an optimal viewing experience across various devices.
+- **Interactive Elements**: Utilizes JavaScript to enhance user interaction, providing dynamic content updates and improved navigation.
+- **Clean and Modern Aesthetic**: Designed with a user-friendly interface using CSS for styling, making it easy to navigate through my projects and skills.
 
----
+## Contents
 
-### 💻 Featured Projects:
+### 1. Home Page
+- **Purpose**: Introduces visitors to my portfolio, highlighting my skills and providing a brief overview of my professional background.
+- **Key Technologies**: HTML, CSS, JavaScript
 
-Coming soon...
+### 3. About Me Section
+- **Purpose**: Provides insights into my background, skills, and what drives my passion for data analysis and web development.
+- **Key Technologies**: HTML, CSS, JavaScript
 
-_Check out all my projects [here](https://github.com/RubytheDev)._
+### 2. Projects Section
+- **Purpose**: Showcases my data analysis projects, including descriptions, technologies used, and links to each project repository.
+- **Key Projects**:
+  - **Principal Component Analysis**: A Python library simplifying PCA through the covariance matrix approach.
+  - **Data Projects**: Diverse projects utilizing SQL, Google Sheets, Tableau, and Power BI.
 
----
+### 4. Contact Information
+- **Purpose**: Allows visitors to connect with me via email and links to my LinkedIn and GitHub profiles.
 
-### 🛠️ Skills:
-- **Languages**: Python, SQL, MATLAB, JavaScript, Java
-- **Tools**: Tableau, Excel, Power BI, Git, Jupyter Notebooks, SPSS
-- **Frameworks/Libraries**: Pandas, NumPy, Matplotlib, Scikit-learn
-- **Concepts**: Data Visualization, Statistical Analysis, Machine Learning, Data Structures and Algorithms, Software Development
+## How to View the Website
 
----
-
-### 🔗 Connect with Me:
-- **[LinkedIn](https://www.linkedin.com/in/Ruby-Nunez)**
-
----
-
-### 🌱 What’s Next:
-I am continually working on new projects to expand my skill set, particularly in machine learning algorithms and business analytics. I seek opportunities to contribute to data-driven solutions and apply the knowledge gained from Colby College to create meaningful impact while eagerly exploring new ways to apply my skills.
-
----
-
-### 🚀 Let's Connect!
-
-Feel free to explore my work and reach out for collaboration or opportunities. I am currently seeking to join a company that shares my passion for automating processes through data science.
+To view my personal website, please visit: [https://rubythedev.github.io/](https://rubythedev.github.io/)
