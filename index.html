@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     
     <!-- Google Fonts: Anton for headings and Roboto for paragraphs -->
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
     
     <!-- External CSS -->
     <link href="style.css" rel="stylesheet">
@@ -19,7 +19,7 @@
 
     <!-- Header Section -->
     <header id="home">
-        <div class="header-container">
+        <div class="header-container fade-in">
             <!-- Name Section -->
             <div class="header-name anton-regular">
                 <h1>Hi, I'm Ruby.</h1>
@@ -47,10 +47,24 @@
     </section>
 
     <!-- Projects Section -->
-    <section id="projects">
+    <section id="projects" class="fade-in">
         <h2>Projects</h2>
 
         <!-- Project 1 -->
+        <div class="project fade-in">
+            <div class="project-content">
+                <div class="project-image">
+                    <img src="images/pca_project.png" alt="Data Projects Screenshot">
+                </div>
+                <div class="project-details">
+                    <h3>Principal Component Analysis</h3>
+                    <p>A high-performance Python library that simplifies Principal Component Analysis through the covariance matrix approach. Designed for data analysts and data scientists, this tool enhances dimensionality reduction, boosts data visualization, and streamlines exploratory data analysis. With features like variance analysis, elbow plot generation, and data reconstruction.</p>
+                    <a href="https://github.com/rubythedev/principal_component_analysis" target="_blank">View on GitHub</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 2 -->
         <div class="project fade-in">
             <div class="project-content">
                 <div class="project-image">
@@ -65,7 +79,7 @@
         </div>
 
         <!-- Project 2 -->
-        <!-- <div class="project fade-in"> -->
+        <div class="project fade-in">
             <!-- <div class="project-content"> -->
                 <!-- <div class="project-image"> -->
                     <!-- <img src="images/project2.png" alt="Project 2 Screenshot"> -->

@@ -1,5 +1,5 @@
 /* Importing Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:wght@300;400;700&display=swap');
 
 /* Global Styles */
 * {
@@ -16,13 +16,12 @@ body {
     overflow-x: hidden;
 }
 
-/* Anton Font Class for Headings */
-.anton-regular {
-    font-family: 'Anton', sans-serif;
-    font-weight: 400; /* Default for Anton */
+/* Archivo Font Class for Headings */
+.archivo-black-regular {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
     font-style: normal;
-    /* No need for opacity or text-shadow if using a different font for paragraphs */
-}
+  }
 
 /* Smooth Scrolling */
 html {
