@@ -212,6 +212,42 @@ header {
     background-color: #555;
 }
 
+/* Projects Section Styling */
+.projects-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Full viewport height */
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+/* View All Projects Styling */
+.view-all-projects .project-content {
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Button Styling */
+.btn-view-all {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-view-all:hover {
+    background-color: #0056b3;
+}
+
 /* Contact Section */
 #contact {
     padding: 60px 20px;
