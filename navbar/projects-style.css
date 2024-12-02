@@ -1,0 +1,139 @@
+/* General Reset */
+body, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:wght@300;400;700&display=swap');
+
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif; /* Default font */
+    background-color: #d3d3d3;
+    color: #333;
+    line-height: 1.6;
+    padding-top: 60px; /* Space for fixed navbar */
+}
+
+/* Navbar Styles */
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0; /* Extend across the entire top */
+    z-index: 1000;
+    background-color: #f9f9f9; /* Off white background */
+    padding: 15px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    margin: 0;
+    padding: 0 20px;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: #333; /* Default dark text */
+    padding: 10px 15px; /* Add padding for clickable area */
+    border-radius: 5px; /* Rounded corners */
+    transition: all 0.3s ease; /* Smooth hover transition */
+}
+
+.navbar ul li a:hover {
+    background-color: #333; /* Darker background on hover */
+    color: #fff; /* Light text on hover */
+}
+
+/* Projects Section */
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 0; /* Remove spacing between grid items */
+    padding: 20px;
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+/* Initial state for fade-in effect */
+.project {
+    opacity: 0;
+    transform: translateY(30px); /* Start slightly lower */
+    transition: opacity 0.6s ease, transform 0.6s ease; /* Smooth transition */
+}
+
+/* Fade-in effect when visible */
+.project.visible {
+    opacity: 1;
+    transform: translateY(0); /* Reset to normal position */
+}
+
+.project img {
+    width: 100%;
+    aspect-ratio: 16 / 9; /* Set a rectangle aspect ratio */
+    object-fit: cover; /* Ensure the image scales to fit the rectangle */
+    display: block;
+    transition: transform 0.3s ease; /* Smooth hover transition */
+}
+
+/* Optional: Add hover effects for images */
+.project:hover img {
+    transform: scale(1.01); /* Slight zoom effect on hover */
+}
+
+
+.project-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(52, 51, 51, 0.747);
+    color: #ffffff;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    transition: opacity 0.3s ease;
+}
+
+.project:hover .project-info {
+    opacity: 1;
+}
+
+.project-info h3 {
+    font-size: 1.8rem;
+    font-family: 'Archivo Black', sans-serif;
+    margin-bottom: 10px;
+}
+
+.project-info p {
+    font-size: 1rem;
+    line-height: 1.4;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

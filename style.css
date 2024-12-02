@@ -16,6 +16,61 @@ body {
     overflow-x: hidden;
 }
 
+/* Navbar Styles */
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0; /* Extend across the entire top */
+    z-index: 1000;
+    background-color: #f9f9f9; /* Off white background */
+    padding: 15px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    margin: 0;
+    padding: 0 20px;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: #333; /* Default dark text */
+    padding: 10px 15px; /* Add padding for clickable area */
+    border-radius: 5px; /* Rounded corners */
+    transition: all 0.3s ease; /* Smooth hover transition */
+}
+
+.navbar ul li a:hover {
+    background-color: #333; /* Darker background on hover */
+    color: #fff; /* Light text on hover */
+}
+
+/* Add spacing for body to prevent content overlap with navbar */
+body {
+    padding-top: 60px;
+}
+
+/* Responsive Navbar */
+@media (max-width: 768px) {
+    .navbar ul {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .navbar ul li {
+        margin: 5px 0;
+    }
+}
+
 /* Archivo Font Class for Headings */
 .archivo-black-regular {
     font-family: "Archivo Black", sans-serif;

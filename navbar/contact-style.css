@@ -1,0 +1,170 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:wght@300;400;700&display=swap');
+
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navbar Styles */
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0; /* Extend across the entire top */
+    z-index: 1000;
+    background-color: #f9f9f9; /* Off white background */
+    padding: 15px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    margin: 0;
+    padding: 0 20px;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: #333; /* Default dark text */
+    padding: 10px 15px; /* Add padding for clickable area */
+    border-radius: 5px; /* Rounded corners */
+    transition: all 0.3s ease; /* Smooth hover transition */
+}
+
+.navbar ul li a:hover {
+    background-color: #333; /* Darker background on hover */
+    color: #fff; /* Light text on hover */
+}
+
+/* Header Section */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    align-items: center;
+    background-color: #fff;
+}
+
+.header-name h1 {
+    font-size: 40px;
+}
+
+.header-name h2 {
+    font-size: 20px;
+    color: #555;
+}
+
+.header-image img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+/* Fade-in Animation */
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Footer Section */
+footer {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #1abc9c;
+}
+
+/* Contact Section */
+#contact {
+    flex-grow: 1; /* Pushes footer to the bottom */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    gap: 40px; /* Space between each contact item */
+}
+
+.contact-header {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Contact Details */
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 50px; /* Space between each contact item */
+    width: 100%;
+    max-width: 400px; /* Limit width for readability */
+    align-items: center; /* Center all items */
+}
+
+/* Individual Contact Item */
+.contact-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Space between icon and text */
+}
+
+/* Contact Icon */
+.contact-icon {
+    width: 50px;
+    height: 50px;
+}
+
+/* Contact Links */
+.contact-item a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #2a2a2a;
+    transition: color 0.3s ease;
+}
+
+.contact-item a:hover {
+    color: #005580;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
